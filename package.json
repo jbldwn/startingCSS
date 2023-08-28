@@ -1,0 +1,19 @@
+{
+  "name": "startingcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile": "sass scss/styles.scss css/styles.css -w",
+    "test2": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
